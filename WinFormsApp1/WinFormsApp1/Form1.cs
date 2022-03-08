@@ -24,7 +24,19 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string user, pass;
+            user = textboxusername.Text;
+            pass = textboxmatkhau.Text;
+            if (user == "admin" && pass == "admin")
+            {
+                MessageBox.Show("Dang Nhap Success");
 
+            }
+            else
+            {
+                MessageBox.Show("Dang Nhap fail");
+
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -33,6 +45,11 @@ namespace WinFormsApp1
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textboxusername_TextChanged(object sender, EventArgs e)
         {
 
         }

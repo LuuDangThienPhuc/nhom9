@@ -53,6 +53,7 @@ namespace WinFormsApp1
             this.textboxusername.Name = "textboxusername";
             this.textboxusername.Size = new System.Drawing.Size(186, 27);
             this.textboxusername.TabIndex = 1;
+            this.textboxusername.TextChanged += new System.EventHandler(this.textboxusername_TextChanged);
             // 
             // label2
             // 
@@ -76,7 +77,7 @@ namespace WinFormsApp1
             this.btnDangNhap.Location = new System.Drawing.Point(366, 196);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(86, 31);
+            this.btnDangNhap.Size = new System.Drawing.Size(138, 31);
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
